@@ -26,3 +26,16 @@
   "author": "monday.com AI Team",
   "license": "MIT"
 }
+
+{
+  "name": "monday-mcp-vercel",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'Build complete'"
+  },
+  "dependencies": {
+    "@mondaydotcomorg/monday-api-mcp": "latest"
+  }
+}
